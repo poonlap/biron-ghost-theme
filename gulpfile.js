@@ -43,6 +43,7 @@ gulp.task('scripts', function() {
     .src([
       npm_src   + 'vanilla-lazyload/dist/lazyload.min.js',
       npm_src   + 'fitvids/dist/fitvids.min.js',
+      npm_src   + 'fslightbox/index.js',
       asset_src + 'js/scripts/prism.js',
       asset_src + 'js/scripts/script.js'
     ])
